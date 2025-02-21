@@ -13,6 +13,13 @@
 
 }
 
+.section-title {
+
+  font-size: 35px;
+  font-weight: bold;
+
+}
+
 .btn-primary {
   font-size: 20px;
   font-weight: bold;
@@ -167,5 +174,45 @@ main section {
   padding: 30px;
   border-radius: 5px;
   box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+
+}
+
+/* style resume section */
+
+.resume-container {
+  display: flex;
+  gap: 24px;
+
+
+}
+
+.experience-title {
+  font-size: 25px;
+  font-weight: bold;
+
+
+
+}
+
+.experience-sub-title {
+  font-weight: 600;
+  font-size: 20px;
+  margin-bottom: 20px;
+
+
+}
+
+.experience-description {
+  color: #757575;
+
+}
+
+.resume hr {
+  margin: 30px;
+}
+
+.resume-download-cv {
+  margin-top: 30px;
+
 
 }
