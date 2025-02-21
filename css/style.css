@@ -216,3 +216,33 @@ main section {
 
 
 }
+
+/* style footer */
+
+footer {
+  display: flex;
+  padding: 130px 220px;
+  gap: 100px;
+
+
+}
+
+.footer-column {
+
+  width: 50%;
+}
+
+footer input[type="text"],
+footer input[type="email"],
+footer textarea {
+
+  height: 64px;
+  width: 100%;
+  border-radius: 5px;
+  display: block;
+  color: white;
+  padding: 10px 20px;
+  margin-bottom: 24px;
+  border: none;
+
+}
